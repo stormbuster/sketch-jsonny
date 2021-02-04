@@ -1,0 +1,29 @@
+{
+  "name": "JSonny",
+  "description": "Loads data from a specific JSON file and imports it into Sketch. Based on json-parser by Koen Vendrik.",
+  "author": "Robert Kortenoeven",
+  "authorEmail": "robert@welivelikethis.net",
+  "homepage": "http://welivelikethis.net",
+  "identifier": "com.welivelikethis.jsonny",
+  "build": "1",
+  "version": "1.0",
+  "compatibleVersion": 3,
+  "bundleVersion": 1,
+  "icon": "icon.png",
+  "commands": [
+    {
+      "script": "load-content.js",
+      "handler": "onRun",
+      "name": "Load JSON",
+      "identifier": "Load JSON",
+      "shortcut": "control command j"
+    }
+  ],
+  "menu": {
+    "items": [
+      "Load JSON"
+    ]
+  },
+  "disableCocoaScriptPreprocessor": true,
+  "appcast": "https://raw.githubusercontent.com//master/.appcast.xml"
+}
